@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ERP Program for Product Production</title>
+    <link rel="stylesheet" type="text/css" href="stylesMain.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'fileDropdown')">Plik</button>
+                <div id="fileDropdown" class="dropdown-content">
+                    <a href="#">New</a>
+                    <a href="#">Open</a>
+                    <a href="#">Save</a>
+                    <a href="#">Save As</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'userMenuDropdown')">Menu
+                    uzytkownika</button>
+                <div id="userMenuDropdown" class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle"
+                    onclick="toggleDropdown(event, 'technologyDropdown')">Technologia</button>
+                <div id="technologyDropdown" class="dropdown-content">
+                    <a href="#">Hardware</a>
+                    <a href="#">Software</a>
+                    <a href="#">Network</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'productionDropdown')">Produkcja</button>
+                <div id="productionDropdown" class="dropdown-content">
+                    <a href="#">BOM</a>
+                    <a href="#">Routing</a>
+                    <a href="#">Scheduling</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'warehousesDropdown')">Magazyny</button>
+                <div id="warehousesDropdown" class="dropdown-content">
+                    <a href="#">Inventory</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Receiving</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'accountingDropdown')">Rachuba</button>
+                <div id="accountingDropdown" class="dropdown-content">
+                    <a href="#">General Ledger</a>
+                    <a href="#">Accounts Payable</a>
+                    <a href="#">Accounts Receivable</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown(event, 'companyDropdown')">Firma</button>
+                <div id="companyDropdown" class="dropdown-content">
+                    <a href="#">Contacts</a>
+                    <a href="#">Vendors</a>
+                    <a href="#">Customers</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle"
+                    onclick="toggleDropdown(event, 'definitionsDropdown')">Definicje</button>
+                <div id="definitionsDropdown" class="dropdown-content">
+                    <a href="#">Units of Measure</a>
+                    <a href="#">Item Classes</a>
+                    <a href="#">Item Groups</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-toggle"
+                    onclick="toggleDropdown(event, 'administrationDropdown')">Administracja</button>
+                <div id="administrationDropdown" class="dropdown-content">
+                    <a href="#">Security</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
